@@ -1,0 +1,226 @@
+#brand{
+	font-size: 2.5em;
+	color: #fc0339;
+}
+
+#front img{
+  height: 90vh;
+	width: 100%;
+}
+
+/* .para{
+	margin: 3% 15%;
+} */
+.col-md-6 img{
+  height: 350px;
+  width: 65%;
+  position: relative;
+  clear: both;
+  top: 150px;
+  right: -15%;
+  z-index: -1;
+  border-top-left-radius: 30%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 50%;
+  }
+
+.border1{
+  height: 300px;
+  width: 60%;
+  position: relative;
+  clear: both;
+  top: -250px;
+  right: -20%;
+  z-index: 1;
+  border-top-left-radius: 30%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 50%;
+  border: 5px solid #fc0339;
+}
+
+.image2 img{
+  height: 300px;
+  width: 60%;
+  position: relative;
+  clear: both;
+  top: 10%;
+  z-index: 1;
+  border-top-left-radius: 30%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 50%;
+}
+
+.border2{
+	height: 350px;
+  width: 65%;
+  position: relative;
+  clear: both;
+  top: -28%;
+  left: -10%;
+  z-index: -1;
+  margin-left: 15%;
+  border-top-left-radius: 30%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 50%;
+  border: 5px solid red;
+}
+
+
+.center{
+	text-align: center;
+}
+.col-lg-12 img{
+	height: 100%;
+	width: 50%;
+}
+h1{
+	color: #fc0339;
+}
+#para{
+	margin: 0% 25%;
+}
+.col-lg-3 img{
+	height: 30%;
+	width: 30%;
+}
+.signup{
+	height: 100%;
+	width: 99%;
+	background-image: url("https://images.unsplash.com/photo-1602525662485-744a6e2bf33a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .9;
+}
+.btn1{
+	padding: 2% 5%;
+	border: 1px solid #fc0339;
+	border-radius: 20px;
+	background-color: #fc0339;
+	color: white;
+}
+/* i{
+	color: #fc0339;
+} */
+#foot{
+	background-image: linear-gradient(to right,red,deeppink);Type a message
+}
+#head{
+	padding: 0% 30%;
+}
+#icons{
+	margin: 0% 10%;
+}
+#links{
+	margin: 0% 5%;
+}
+#row{
+	margin: 5% 5%;
+}
+#col2{
+	width: 25%;
+	margin-left: 0%;
+}
+
+.about{
+  margin-top: 55%;
+}
+
+/* Image Slider Show Configration */
+
+#slider{
+  position: absolute;
+  height: 550px;
+  width: 1350px;
+  overflow: hidden;
+  }
+  
+  .back{
+      position: relative;
+      z-index: -1;
+  }
+  
+  .front{
+      position: absolute;
+      top: 0%;
+      margin: 10% 20% 10% 20%;
+      text-align: center;
+      color: black;
+  }
+  
+  .front p{
+      margin-top: 5%;
+      margin-bottom: 5%;
+  }
+  
+  .front button{
+      background-color: red;
+      padding: 1.5% 3%;
+      border-radius: 5px;
+      border: 1px solid red;
+      color: white;
+      font-size: bold;
+  }
+  
+  
+  #slider .slides{
+      display: block;
+      width: 4104px;
+      height: 550px;
+      margin: 0;
+      padding: 0;
+  }
+  
+  #slider .slide{
+      float: left;
+      list-style-type: none;
+      width: 1350px;
+      height: 550px;
+  }
+  
+  img{
+      width: 1350px;
+      height: 550px;
+      opacity: .5;
+  }
+  .leftIcons{
+      position: absolute;
+      top: 50%;
+      left: 2%;
+      color: white;
+  }
+  
+  .rightIcons{
+      position: absolute;
+      top: 50%;
+      left: 95%;
+      color: white;
+  }
+  
+  .dot{
+      position: absolute;
+      z-index: 1;
+      bottom: 5%;
+      left: 47%;
+      color: white;
+  }
+/*   
+  #first:hover{
+      color: red;
+  }
+  
+  #second:hover{
+      color: red;
+  }
+  
+  #third:hover{
+      color: red;
+  }
+   */
+
+   #icon1{
+    color: red;
+   }
