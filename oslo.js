@@ -34,29 +34,23 @@ $(function(){
 
     $('#icon1').on('click',function(){
         currentSlide = 1;
+        count = 3;
+        pagination();
         dotSlider();
-        count = 0;
-        cnt = 1;
-        dotColor();
-
-
     });
 
     $('#icon2').click(function(){
         currentSlide = 2;
+        count = 1;
+        pagination();
         dotSlider();
-        count = 0;
-        cnt = 2;
-        dotColor();
-
     });
 
     $('#icon3').click(function(){
         currentSlide = 3;
+        count = 2;
+        pagination();   
         dotSlider();
-        count = 0;
-        cnt = 3;
-        dotColor();
     });
 
 
@@ -155,26 +149,4 @@ function pagination(){
         cnt = 0;
     }
  }
-
- function dotColor(){
-     console.log(cnt)
-     if(cnt == 1){
-         $('#icon1').css('color','red');
-         $('#icon2').css('color','white');
-         $('#icon3').css('color','white');
-     }
-     else if(cnt == 2){
-        $('#icon1').css('color','white');
-        $('#icon2').css('color','red');
-        $('#icon3').css('color','white');
-    }
-    else if(cnt == 3){
-        $('#icon1').css('color','white');
-        $('#icon2').css('color','white');
-        $('#icon3').css('color','red');
-        count = 1;
-    }  
-
- }
-
 });
